@@ -27,7 +27,7 @@ function MyForm2() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label class="form-label">Name:</label>
+            <label className="form-label">Name:</label>
             <input
                 type="text"
                 name="username"
@@ -35,7 +35,7 @@ function MyForm2() {
                 onChange={handleChange}
                 className="form-control"
             />
-            <label class="form-label">Age:</label>
+            <label className="form-label">Age:</label>
             <input
                 type="number"
                 name="age"
